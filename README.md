@@ -12,7 +12,7 @@ Please use Swift Package Manager to install **SlidingTabView**
 Just instantiate and bind it to your state. That is it!
 ```swift
 @State private var selectedTabIndex = 0
-SlidingTabView(selection: $selectedTabIndex,tabs: ["First Tab", "Second Tab"]
+SlidingTabView(selection: $selectedTabIndex,tabs: ["First Tab", "Second Tab"])
 ```
 
 ## Canvas Preview
@@ -31,7 +31,7 @@ struct SlidingTabConsumerView : View {
     }
 }
 
-@available(iOS 13.0.0, *)
+@available(iOS 15.0.0, *)
 struct SlidingTabView_Previews : PreviewProvider {
     static var previews: some View {
         SlidingTabConsumerView()
